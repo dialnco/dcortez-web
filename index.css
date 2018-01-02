@@ -1,0 +1,48 @@
+body {
+  font-style: normal;
+  font-variant-ligatures: normal;
+  font-variant-caps: normal;
+  font-variant-numeric: normal;
+  font-variant-east-asian: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  font-size: 13px;
+  line-height: normal;
+  font-family: Menlo, Monaco, 'Lucida Console', 'Liberation Mono',
+    'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', monospace,
+    serif;
+}
+
+a {
+  color: #22bad9;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.main {
+  padding: 2rem;
+}
+.name {
+  font-size: 14px;
+  font-weight: normal;
+  margin-bottom: 3rem;
+}
+
+.container {
+  box-sizing: border-box;
+}
+.row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.link_detail {
+  display: inline-block;
+  width: 140px;
+  text-align: right;
+  margin-right: 30px;
+  color: rgb(153, 153, 153);
+}
+
+.links {
+  text-decoration: none;
+}
